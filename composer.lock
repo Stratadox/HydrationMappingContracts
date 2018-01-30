@@ -4,8 +4,106 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "27232dbf48ff2996bbce68437c11d548",
-    "packages": [],
+    "content-hash": "7b53ad7f9c79bc2a7242262c280c18fb",
+    "packages": [
+        {
+            "name": "stratadox/collection-contracts",
+            "version": "v1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stratadox/CollectionContracts.git",
+                "reference": "a7de67fd0edbc68be319c5ddc7fd0a1c6291f254"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stratadox/CollectionContracts/zipball/a7de67fd0edbc68be319c5ddc7fd0a1c6291f254",
+                "reference": "a7de67fd0edbc68be319c5ddc7fd0a1c6291f254",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "stratadox/specification-interfaces": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stratadox\\Collection\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stratadox",
+                    "homepage": "http://www.stratadox.com/"
+                }
+            ],
+            "description": "Interfaces for the collection classes.",
+            "time": "2017-11-06T23:12:22+00:00"
+        },
+        {
+            "name": "stratadox/specification-interfaces",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stratadox/SpecificationInterfaces.git",
+                "reference": "bff3d973c5a101fbea7a40cd236dcd520d35ba3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stratadox/SpecificationInterfaces/zipball/bff3d973c5a101fbea7a40cd236dcd520d35ba3d",
+                "reference": "bff3d973c5a101fbea7a40cd236dcd520d35ba3d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stratadox\\Specification\\Contract\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stratadox",
+                    "homepage": "http://www.stratadox.com/"
+                }
+            ],
+            "description": "Interfaces for the Specification Pattern for Php7",
+            "keywords": [
+                "PHP7",
+                "Specifications",
+                "condition",
+                "contract",
+                "contracts",
+                "ddd",
+                "filter",
+                "filters",
+                "interface",
+                "interfaces",
+                "isSatisfiedBy",
+                "pattern",
+                "satisfiable",
+                "satisfied",
+                "satisfiedBy",
+                "satisfying",
+                "select",
+                "selector",
+                "specification",
+                "specifier",
+                "specifying",
+                "stratadox"
+            ],
+            "time": "2017-09-07T22:10:47+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
