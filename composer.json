@@ -1,0 +1,18 @@
+{
+    "name": "stratadox/hydration-mapping-contracts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stratadox",
+            "homepage": "http://www.stratadox.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stratadox\\HydrationMapping\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
