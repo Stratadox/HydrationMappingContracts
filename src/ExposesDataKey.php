@@ -16,7 +16,7 @@ interface ExposesDataKey extends MapsProperty
      * Used by mapping classes that decorate classes of this type, in order to
      * be able to distinguish between relevant and non-relevant input data.
      *
-     * @example https://github.com/Stratadox/HydrationMapping/blob/master/src/Property/Scalar/CustomTruths.php 31 10 Decorating a boolean mapping.
+     * @example https://github.com/Stratadox/HydrationMapping/blob/master/src/Property/Scalar/CustomTruths.php Decorating a boolean mapping.
      *
      * @return string The key used to fetch the data from the input array.
      */
