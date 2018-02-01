@@ -29,6 +29,7 @@ interface MapsProperty
      * @param array       $data  The input data, as received by the hydrator.
      * @param object|null $owner The owner of the property.
      * @return mixed             The value to assign to the property.
+     * @throws UnmappableInput   When the input could not be mapped.
      */
     public function value(array $data, $owner = null);
 }
