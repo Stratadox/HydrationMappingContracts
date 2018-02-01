@@ -11,12 +11,12 @@ namespace Stratadox\HydrationMapping;
 interface MapsProperty
 {
     /**
-     * The name of the property.
+     * Retrieves the name of the property.
      *
      * Used to determine which object property to write to during the
      * hydration process.
      *
-     * @return string   Name of the attribute.
+     * @return string   Name of the property.
      */
     public function name() : string;
 
@@ -26,9 +26,9 @@ interface MapsProperty
      * Used to determine what to write to the object property during the
      * hydration process.
      *
-     * @param array         $data   Hydration data.
-     * @param object|null   $owner  The owner of the property.
-     * @return mixed                Value to assign to the property.
+     * @param array       $data  The input data, as received by the hydrator.
+     * @param object|null $owner The owner of the property.
+     * @return mixed             The value to assign to the property.
      */
     public function value(array $data, $owner = null);
 }
