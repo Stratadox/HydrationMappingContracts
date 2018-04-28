@@ -4,24 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b53ad7f9c79bc2a7242262c280c18fb",
+    "content-hash": "6f72365356bb16fb402694f3b0d6426c",
     "packages": [
         {
             "name": "stratadox/collection-contracts",
-            "version": "v1",
+            "version": "v2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Stratadox/CollectionContracts.git",
-                "reference": "a7de67fd0edbc68be319c5ddc7fd0a1c6291f254"
+                "reference": "b44d564fb8a05c427699c6d90b0e1c47fd23a508"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Stratadox/CollectionContracts/zipball/a7de67fd0edbc68be319c5ddc7fd0a1c6291f254",
-                "reference": "a7de67fd0edbc68be319c5ddc7fd0a1c6291f254",
+                "url": "https://api.github.com/repos/Stratadox/CollectionContracts/zipball/b44d564fb8a05c427699c6d90b0e1c47fd23a508",
+                "reference": "b44d564fb8a05c427699c6d90b0e1c47fd23a508",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0",
+                "php": ">=7.1",
+                "stratadox/sorting-contracts": "^0.1.0",
                 "stratadox/specification-interfaces": "^1.0"
             },
             "type": "library",
@@ -41,7 +42,42 @@
                 }
             ],
             "description": "Interfaces for the collection classes.",
-            "time": "2017-11-06T23:12:22+00:00"
+            "time": "2018-04-12T22:25:29+00:00"
+        },
+        {
+            "name": "stratadox/sorting-contracts",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stratadox/SortingContracts.git",
+                "reference": "e575b6dc8d9f513d084df741bd0c15bccc9b3720"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stratadox/SortingContracts/zipball/e575b6dc8d9f513d084df741bd0c15bccc9b3720",
+                "reference": "e575b6dc8d9f513d084df741bd0c15bccc9b3720",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stratadox\\Sorting\\Contracts\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stratadox",
+                    "homepage": "http://www.stratadox.com/"
+                }
+            ],
+            "time": "2018-04-12T20:45:51+00:00"
         },
         {
             "name": "stratadox/specification-interfaces",
