@@ -8,6 +8,7 @@ use Stratadox\Collection\Collection;
  * Collection of property mappings.
  *
  * @author Stratadox
+ * @deprecated
  */
 interface Mappings extends Collection
 {
