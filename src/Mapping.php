@@ -6,9 +6,8 @@ namespace Stratadox\HydrationMapping;
  * Maps (a portion of) the input array to the value for an object property.
  *
  * @author Stratadox
- * @package Stratadox\Hydrate
  */
-interface MapsProperty
+interface Mapping
 {
     /**
      * Retrieves the name of the property.
@@ -29,7 +28,7 @@ interface MapsProperty
      * @param array       $data  The input data, as received by the hydrator.
      * @param object|null $owner The owner of the property.
      * @return mixed             The value to assign to the property.
-     * @throws UnmappableInput   When the input could not be mapped.
+     * @throws MappingFailure    When the input could not be mapped.
      */
     public function value(array $data, $owner = null);
 }
