@@ -13,7 +13,6 @@
         }
     },
     "require": {
-        "php": ">=7.1",
-        "stratadox/collection-contracts": "^3.0"
+        "php": ">=7.1"
     }
 }
