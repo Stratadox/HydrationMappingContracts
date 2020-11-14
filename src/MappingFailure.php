@@ -11,5 +11,4 @@ use Throwable;
  */
 interface MappingFailure extends Throwable
 {
-    public function hydrationData(): array;
 }
